@@ -1,0 +1,16 @@
+* Tue May 03 2011 Junfeng Dong <junfeng.dong@intel.com> - 0.8.2
+- Update to 0.8.2
+
+* Tue Apr 26 2011 Yu <yu.a.wang@intel.com> - 0.8.1
+- Rename mpc-0.8.1-rpmlintrc to mpc-rpmlintrc and add it as source 
+- in spec file fix BMC #16104
+
+* Tue Jun 29 2010 Austin Zhang <austin.zhang@intel.com> -0.8.1
+- Fixed post action fail issue.
+
+* Mon May 24 2010 Austin Zhang <austin.zhang@intel.com> -0.8.1
+- Added rpmlintrc to suppress wanring/error.
+ 
+* Thu Apr 19 2010 Austin Zhang <austin.zhang@intel.com> -0.8.1
+- Initial import into MeeGo.
+ 
