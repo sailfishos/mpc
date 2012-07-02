@@ -1,13 +1,14 @@
 Name: mpc
 Summary: "A multiprecision library"
-Version: 0.8.2
+Version: 0.9
 Release: 1
 Group: Development/Libraries
 License: LGPL2.1
 URL: http://www.multiprecision.org/
 Sources:
     - http://www.multiprecision.org/mpc/download/%{name}-%{version}.tar.gz
-    - mpc-rpmlintrc
+Patches:
+    - mpc-r1119-rebased-build-fix.patch
 Description: |
     Mpc is a C library for the arithmetic of complex numbers with arbitrarily 
     high precision and correct rounding of the result. It is built upon and 
@@ -17,8 +18,9 @@ Description: |
     (at your option) any later version.
 
 PkgBR:
-    - gmp-devel
-    - mpfr-devel
+    - gmp-devel >= 4.3.2
+    - mpfr-devel >= 2.4.2
+Configure: reconfigure
 Builder: none
 SubPackages:
     - Name: devel
