@@ -49,6 +49,9 @@ rm -rf %{buildroot}
 
 %make_install
 
+# HACK: include older .so so we can get everything rebuild properly
+cp -a /%{_libdir}/libmpc.so.2.0.0 $RPM_BUILD_ROOT/%{_libdir}/libmpc.so.2.0.0
+cp -a /%{_libdir}/libmpc.so.2 $RPM_BUILD_ROOT/%{_libdir}/libmpc.so.2
 
 %post
 /sbin/ldconfig
