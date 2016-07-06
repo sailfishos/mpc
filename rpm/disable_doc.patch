@@ -1,0 +1,13 @@
+diff --git a/Makefile.am b/Makefile.am
+index e807615..d571d77 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -22,7 +22,7 @@ ACLOCAL_AMFLAGS = -I m4
+ # version number for distribution tarball
+ VERSION = @VERSION@@GITVERSION@
+ 
+-SUBDIRS = src tests doc tools
++SUBDIRS = src tests tools
+ 
+ EXTRA_HEADERS = src/mpc-log.h
+ include_HEADERS = src/mpc.h @MPC_LOG_H@
