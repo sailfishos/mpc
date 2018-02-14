@@ -1,6 +1,6 @@
 Name:       mpc
 Summary:    A multiprecision library
-Version:    0.9
+Version:    1.1.0
 Release:    1
 Group:      Development/Libraries
 License:    LGPLv3+
@@ -9,7 +9,7 @@ Source0:    http://www.multiprecision.org/mpc/download/%{name}-%{version}.tar.gz
 Patch0:     disable_doc.patch
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
-BuildRequires:  gmp-devel >= 4.3.2
+BuildRequires:  gmp-devel >= 5.0.0
 BuildRequires:  mpfr-devel >= 2.4.2
 
 %description
