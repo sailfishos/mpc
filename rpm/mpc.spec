@@ -3,7 +3,7 @@ Summary:    A multiprecision library
 Version:    0.9
 Release:    1
 Group:      Development/Libraries
-License:    LGPL3
+License:    LGPLv3+
 URL:        http://www.multiprecision.org/
 Source0:    http://www.multiprecision.org/mpc/download/%{name}-%{version}.tar.gz
 Patch0:     disable_doc.patch
