@@ -1,10 +1,10 @@
 diff --git a/Makefile.am b/Makefile.am
-index e807615..d571d77 100644
+index d0a0085..1297277 100644
 --- a/Makefile.am
 +++ b/Makefile.am
-@@ -22,7 +22,7 @@ ACLOCAL_AMFLAGS = -I m4
- # version number for distribution tarball
- VERSION = @VERSION@@GITVERSION@
+@@ -23,7 +23,7 @@ ACLOCAL_AMFLAGS = -I m4
+ # VERSION = @VERSION@@GITVERSION@ # for development version
+ VERSION = @VERSION@
  
 -SUBDIRS = src tests doc tools
 +SUBDIRS = src tests tools
